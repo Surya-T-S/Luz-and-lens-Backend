@@ -1,18 +1,18 @@
-# Normalize all text files to LF on commit
-* text=auto eol=lf
+# Normalize all text files to CRLF on commit
+* text=auto eol=crlf
 
 # Explicitly treat common code/text files as text
-*.js    text
-*.json  text
-*.md    text
-*.yml   text
-*.yaml  text
-*.html  text
-*.css   text
-*.ts    text
-*.tsx   text
-*.jsx   text
-*.sh    text eol=lf
+*.js    text eol=crlf
+*.json  text eol=crlf
+*.md    text eol=crlf
+*.yml   text eol=crlf
+*.yaml  text eol=crlf
+*.html  text eol=crlf
+*.css   text eol=crlf
+*.ts    text eol=crlf
+*.tsx   text eol=crlf
+*.jsx   text eol=crlf
+*.sh    text eol=crlf
 *.bat   text eol=crlf
 
 # Mark binary files so Git doesn't try to diff them
@@ -33,3 +33,9 @@
 *.dll   binary
 *.so    binary
 *.bin   binary
+
+# Ensure license file uses CRLF line endings
+LICENSE text eol=crlf
+
+# Ensure .gitattributes file uses CRLF line endings
+.gitattributes text eol=crlf

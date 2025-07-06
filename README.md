@@ -131,3 +131,11 @@ npm start
 1. Set all environment variables in Render dashboard
 2. Use a cloud storage service for production file storage
 3. The uploads directory is ephemeral on Render's free tier
+
+---
+
+## Credits
+
+Backend created by **Surya T S**. All rights reserved.
+
+**Contributors:** Sooraj K R, Vrindha P
