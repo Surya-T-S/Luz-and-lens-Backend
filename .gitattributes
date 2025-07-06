@@ -1,0 +1,35 @@
+# Normalize all text files to LF on commit
+* text=auto eol=lf
+
+# Explicitly treat common code/text files as text
+*.js    text
+*.json  text
+*.md    text
+*.yml   text
+*.yaml  text
+*.html  text
+*.css   text
+*.ts    text
+*.tsx   text
+*.jsx   text
+*.sh    text eol=lf
+*.bat   text eol=crlf
+
+# Mark binary files so Git doesn't try to diff them
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.pdf   binary
+*.zip   binary
+*.gz    binary
+*.tar   binary
+*.mp4   binary
+*.mp3   binary
+*.mov   binary
+*.avi   binary
+*.exe   binary
+*.dll   binary
+*.so    binary
+*.bin   binary
